@@ -2,6 +2,8 @@ def py_sam_2_avenormbg(folder=None, input_type = 'sam', ends=False, lengths_anal
                          big_wig=True, size_min_1 = 20, size_max_1=120, size_min_2=150, size_max_2=710):
     
     """
+    Written by Pete Skene (peteskene@gmail.com). Free for academic use only.
+    
     Script will take a folder of sam or bam files and generate bedgraphs. .
     Will always make bedgraphs using the entire inserts, can also make bedgraphs using just insert ends (see ends option)
     
